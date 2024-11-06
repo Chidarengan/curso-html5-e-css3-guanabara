@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheatsheet HTML5</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #333; }
+        code { background: #f4f4f4; padding: 2px 5px; border-radius: 3px; }
+        pre { background: #f9f9f9; padding: 10px; border: 1px solid #ccc; }
+        ul { line-height: 1.6; }
+    </style>
+</head>
+<body>
+    <h1>Cheatsheet HTML5</h1>
+
+    <h2>Estrutura Básica</h2>
+    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-BR"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Título da Página&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Título Principal&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+    <h2>Elementos Comuns</h2>
+    <ul>
+        <li>&lt;h1&gt; a &lt;h6&gt;: Títulos</li>
+        <li>&lt;p&gt;: Parágrafo</li>
+        <li>&lt;a href="URL"&gt;: Link</li>
+        <li>&lt;img src="URL" alt="Descrição"&gt;: Imagem</li>
+        <li>&lt;ul&gt; e &lt;ol&gt;: Listas (não ordenadas e ordenadas)</li>
+    </ul>
+
+    <h2>Formulários</h2>
+    <pre><code>&lt;form action="submit.php" method="POST"&gt;
+    &lt;label for="name"&gt;Nome:&lt;/label&gt;
+    &lt;input type="text" id="name" name="name"&gt;
+    &lt;input type="submit" value="Enviar"&gt;
+&lt;/form&gt;</code></pre>
+
+    <h2>JavaScript</h2>
+    <h3>Função Simples</h3>
+    <pre><code>function saudacao(nome) {
+    alert("Olá, " + nome + "!");
+}</code></pre>
+
+    <h3>Evento de Clique</h3>
+    <pre><code>&lt;button onclick="saudacao('Visitante')"&gt;Clique aqui&lt;/button&gt;</code></pre>
+
+    <h2>CSS Básico</h2>
+    <pre><code>body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}</code></pre>
+
+    <h2>Meta Tags</h2>
+    <pre><code>&lt;meta name="description" content="Descrição da página"&gt;
+&lt;meta name="keywords" content="HTML, CSS, JavaScript"&gt;
+&lt;meta name="author" content="Seu Nome"&gt;</code></pre>
+
+    <h2>Incorporando Outros Arquivos</h2>
+    <pre><code>&lt;link rel="stylesheet" href="styles.css"&gt;
+&lt;script src="script.js"&gt;&lt;/script&gt;</code></pre>
+
+    <footer>
+        <p>Desenvolvido por Você | &copy; 2024</p>
+    </footer>
+</body>
+</html>
