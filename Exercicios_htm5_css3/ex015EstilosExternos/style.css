@@ -1,0 +1,22 @@
+@charset "UTF-8";
+ 
+    body{
+        background-color: aquamarine;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+
+    h1{
+        color: yellowgreen;
+        background-color: lightcoral;
+        /* isso aqui é uma porcaria - by guanabara */
+    }
+
+    h2{
+        color: blueviolet;
+    }
+    p{
+        text-align: justify;
+    }
+    
+    /* desvantagens disso: o estilo vem antes do conteudo no seu codigo, e se quiser por isso em 30 paginas vai ter q copiar e colar isso em 30 paginas. para se trabalhar com mais de 2 paginas se usa outra tecnica */

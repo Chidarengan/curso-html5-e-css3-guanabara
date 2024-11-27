@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+
+img{
+    display: block; /* Torna o img um elemento de bloco */
+ margin: 0 auto; /* Centraliza horizontalmente */
+ max-width: 100%; /* Opcional */
+ height: auto;
+}
+
+h1, h2 {
+    font-family: 'idroid'; /* Ensure you use quotes for font-family names with special characters */
+    color: rgb(5, 100, 2);
+     }
+
+p{
+    text-align: justify;
+}
+
+h2{
+    background: linear-gradient(to right,rgb(18, 235, 162), transparent 90% );
+    ;
+    
+    
+}
+     
+header{
+    background-image: linear-gradient(to bottom,rgb(102, 207, 102), rgb(24, 126, 24));
+    margin: 0px 0px 0px 0px;
+    padding: 1px;
+    width: 100%; /* Para ocupar toda a largura */
+    box-sizing: border-box; /* Garante que padding não afeta a largura */
+    margin-bottom: 0;
+    text-align: center;
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+   margin: 15px 10px; 
+}
+
+header>p{
+    color: rgba(255, 255, 255, 0.973);
+    padding:1px;
+    text-align: center;
+    text-shadow: 2px 2px 0px black;
+}
+
+header>h1{
+    color: rgba(255, 255, 255, 0.973);
+    padding:5px;
+    text-shadow: 2px 2px 0px black;
+   
+}
+
+header + nav {
+    margin-top: 0;
+    text-align: center;
+}
+
+
+header>h1{
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+nav{
+   
+    background-color: rgb(35, 179, 35);
+    padding:0px ;
+    width: 100%; /* Para ocupar toda a largura */
+    box-sizing: border-box; /* Garante que padding não afeta a largura */
+    margin-top: 0;
+    margin-bottom: 4px;
+
+}
+
+nav>a{
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+nav>a:hover{
+    background-color: rgb(17, 82, 60);
+
+}
+
+
+
+main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 280px ;
+    max-width: 800px ;
+    /* margin auto centraliza */
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.664);
+}
+
+main p{
+    text-indent: 30px;
+    line-height: 2em;
+}
+
+main a{
+    padding: 5px;
+    color: rgb(16, 167, 29);
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+main a:hover{
+    background-color: rgb(17, 82, 60);
+    padding: 2px 2px ;
+
+}
+
+main strong {
+    color: green;
+    font-weight: bold;
+    background-color: rgb(173, 241, 173);
+}
+
+div.video{
+    background-color: rgb(22, 133, 49);
+    /* /* margin: 15px 20px; */
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.466);
+    
+}
+
+div.video>iframe{
+    display: block; 
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+/* deu uns erros aqui no video q fiquei com preguiça de arrumar  */
+
+@font-face {
+font-family: 'idroid';
+src: url('/DesafiosHtml/D010/fontes/idroid.otf') format('opentype'); /* Correct format and path */
+  }
+
+
+body{
+background-color: aquamarine;
+/* padding: 20px; */
+/* border-radius: 10px; */
+margin: 0; /* Remove margem padrão */
+padding: 0; /* Remove padding padrão */
+/* margin: auto;
+margin: 15px 10px;  */
+}
+
+footer{
+    background-color: green;
+    margin: auto;
+    padding: 0px 1px 0px 1px ;
+    width: 100%; /* Para ocupar toda a largura */
+    box-sizing: border-box; /* Garante que padding não afeta a largura */
+    margin-bottom: 0;
+    
+}
+
+footer>p{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+aside{
+    margin: auto;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    background-color: aquamarine;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+    border-radius: 10px;
+}
+
+aside > h3 {
+    background-color: rgb(43, 212, 43);
+    color: white;
+    padding: 5px;
+    margin: -30px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+a.externo::after{
+    content:'\00A0\1F370';
+}
+
+aside ul, aside ol {
+    list-style-type: '\2714\00A0\00A0';
+    margin: 0; /* Remove a margem padrão */
+    padding-left: 20px; /* Adiciona espaçamento para alinhar os pontos */
+    list-style-position: inside; /* Garante que os pontos fiquem dentro do bloco */
+    columns: 2;
+}
