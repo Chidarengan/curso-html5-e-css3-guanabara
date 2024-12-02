@@ -60,20 +60,39 @@ section{
     font-size: 3.5vw;
 }
 
+section > p{
+    padding-bottom: 1em;
+}
+
 section.normal{
-    background-color: white;
-    color: black;
+    background-color: #F5DEB3;
+    color: #5A4632;
 }
 
 section.imagem{
     background-color: rgb(122, 122, 122);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-attachment: fixed;
 }
 
 section.imagem > p{
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.281);
+    background-color: rgba(0, 0, 0, 0.568);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url('/DesafiosHtml/D012/imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+
+}
+
+section#img02 {
+    background-image: url('/DesafiosHtml/D012/imagens/background002.jpg');
+    background-size: cover;
 }
 
 footer{
