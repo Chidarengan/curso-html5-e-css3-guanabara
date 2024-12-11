@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        /* Declarações gerais */
+            *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    html, body{
+        width: 100vw;
+        height: 100vh;
+        background-color: #223eff;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    h1{
+        color: white;
+        text-shadow: 2px 2px 1px black;
+        padding: 10px;
+    }
+
+
+        /* Declarações retrato */
+        @media screen and (orientation: portrait) {
+        
+    }
+
+    body {background-image: url('/Exercicios_htm5_css3/ex026MediaQuery/imagens/cev-portrait.jpg');
+    background-position: center bottom;
+}
+        /* Declarações paisagem */
+
+        @media screen and (orientation: landscape) {
+        
+    }   
+    body{
+    background-image: url('/Exercicios_htm5_css3/ex026MediaQuery/imagens/cev-landscape.jpg');
+    background-position: left bottom;
+} 
+
+/* deu errado, nao sei pq, ainda ferrei o 002 por algum motivo */
+    </style>
+</head>
+<body>
+    <h1>Mude a orientação do seu Dispositivo</h1>
+</body>
+</html>

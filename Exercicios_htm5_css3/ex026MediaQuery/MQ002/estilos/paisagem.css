@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/* aparelho deitado (landscape) */
+
+body{
+    background-image: url('/Exercicios_htm5_css3/ex026MediaQuery/imagens/cev-landscape.jpg');
+    background-position: left bottom;
+}
